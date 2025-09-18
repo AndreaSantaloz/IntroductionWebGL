@@ -122,4 +122,10 @@ const fragmentShaderSource = `#version 300 es
 
 ## Cuarto paso Crear la geometria y dibujar
 
+## Cambios realizados
 Una vez explicado esto diré que cambios he realizado pues mira he añadido 6 reptangulos dinamicos,1 rectangulo estatico y 1 poligono en forma de deltoide.Estos rectángulos tienen la capacidad de subir cuando se encuentran en el extremo inferior del canvas y de bajar cuando están en el extremo superior. Además, su tamaño varía según la ordenada ya que, aumentan de altura cuando la ordenada es igual a 0.1 y se reducen cuando la ordenada llega a -1.0 o a 0.8.
+
+# Herramientas utilizadas
+1. WebGL
+2. JavaScript
+
